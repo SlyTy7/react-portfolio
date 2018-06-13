@@ -9,69 +9,90 @@ class Projects extends Component {
     this.state = {
       projects: [
         {
-          name: 'placeholder',
+          name: 'Project Title',
           image: 'https://placeimg.com/640/480/any',
-          description: 'lorem ipsum lodi dodi we like to party, we dont casue trouble, we dont bother nobody',
+          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta.',
           codeLink: '',
           projectLink: '',
-          skills: [],
+          skills: [
+            'ReactJS',
+            'HTML 5',
+            'CSS 3',
+            'NodeJS',
+            'Material UI'
+          ],
         },
         {
-          name: 'placeholder',
+          name: 'Project Title',
           image: 'https://placeimg.com/640/480/any',
-          description: 'lorem ipsum lodi dodi we like to party, we dont casue trouble, we dont bother nobody',
+          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta.',
           codeLink: '',
-          projectLink: ''
+          projectLink: '',
+          skills: [
+            'ReactJS',
+            'HTML 5',
+            'CSS 3',
+            'NodeJS',
+            'Material UI'
+          ],
         },
         {
-          name: 'placeholder',
+          name: 'Project Title',
           image: 'https://placeimg.com/640/480/any',
-          description: 'lorem ipsum lodi dodi we like to party, we dont casue trouble, we dont bother nobody',
+          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta.',
           codeLink: '',
-          projectLink: ''
+          projectLink: '',
+          skills: [
+            'ReactJS',
+            'HTML 5',
+            'CSS 3',
+            'NodeJS',
+            'Material UI'
+          ],
         },
         {
-          name: 'placeholder',
+          name: 'Project Title',
           image: 'https://placeimg.com/640/480/any',
-          description: 'lorem ipsum lodi dodi we like to party, we dont casue trouble, we dont bother nobody',
+          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta.',
           codeLink: '',
-          projectLink: ''
+          projectLink: '',
+          skills: [
+            'ReactJS',
+            'HTML 5',
+            'CSS 3',
+            'NodeJS',
+            'Material UI'
+          ],
         },
         {
-          name: 'placeholder',
+          name: 'Project Title',
           image: 'https://placeimg.com/640/480/any',
-          description: 'lorem ipsum lodi dodi we like to party, we dont casue trouble, we dont bother nobody',
+          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta.',
           codeLink: '',
-          projectLink: ''
+          projectLink: '',
+          skills: [
+            'ReactJS',
+            'HTML 5',
+            'CSS 3',
+            'NodeJS',
+            'Material UI'
+          ],
         },
         {
-          name: 'placeholder',
+          name: 'Project Title',
           image: 'https://placeimg.com/640/480/any',
-          description: 'lorem ipsum lodi dodi we like to party, we dont casue trouble, we dont bother nobody',
+          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta.',
           codeLink: '',
-          projectLink: ''
+          projectLink: '',
+          skills: [
+            'ReactJS',
+            'HTML 5',
+            'CSS 3',
+            'NodeJS',
+            'Material UI'
+          ],
         },
-        {
-          name: 'placeholder',
-          image: 'https://placeimg.com/640/480/any',
-          description: 'lorem ipsum lodi dodi we like to party, we dont casue trouble, we dont bother nobody',
-          codeLink: '',
-          projectLink: ''
-        },
-        {
-          name: 'placeholder',
-          image: 'https://placeimg.com/640/480/any',
-          description: 'lorem ipsum lodi dodi we like to party, we dont casue trouble, we dont bother nobody',
-          codeLink: '',
-          projectLink: ''
-        },
-        {
-          name: 'placeholder',
-          image: 'https://placeimg.com/640/480/any',
-          description: 'lorem ipsum lodi dodi we like to party, we dont casue trouble, we dont bother nobody',
-          codeLink: '',
-          projectLink: ''
-        },
+
       ]
     }
   }
@@ -82,7 +103,7 @@ class Projects extends Component {
         {
           this.state.projects.map((item, index) => {
             return (
-              <Grid item xs={10} sm={6} md={4} xl={3} key={'key' + index}>
+              <Grid item xs={10} sm={6} md={6} lg={4} xl={3} key={'key' + index}>
                 <Project project={item}/>
               </Grid>
             )

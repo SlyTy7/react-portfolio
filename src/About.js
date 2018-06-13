@@ -24,7 +24,7 @@ class About extends Component {
             </Typography>
             <br />
             <Typography variant="body2" component='p'>
-              I love to code and I'm always open to new opportunities, so send me a message on <a href='https://www.linkedin.com/in/tylerjwest/' target='_blank'>linkedin</a>. Also, feel free to check out my projects on <a href='https://github.com/SlyTy7' target='_blank'>github</a> or in the projects section.
+              I love to code and I'm always open to new opportunities, so send me a message on <a href='https://www.linkedin.com/in/tylerjwest/' target='_blank' rel='noopener noreferrer'>linkedin</a>. Also, feel free to check out my projects on <a href='https://github.com/SlyTy7' target='_blank' rel='noopener noreferrer'>github</a> or in the projects section.
             </Typography>
           </Grid>
         </Grid>
