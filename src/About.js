@@ -16,7 +16,7 @@ class About extends Component {
 
         <Grid container>
           <Grid item xs={12} md={4}>
-            <img src='https://placeimg.com/200/200/any' alt='placeholder' style={{margin: '0px auto', display: 'block'}}/>
+            <img src='https://placeimg.com/200/200/any' alt='placeholder' style={{margin: '0px auto', display: 'block', borderRadius: '50%'}}/>
           </Grid>
           <Grid item xs={12} md={8} style={{ padding: '0px 20px' }}>
             <Typography variant="body2" component='p' gutterBottom>

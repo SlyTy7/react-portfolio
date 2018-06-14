@@ -17,7 +17,69 @@ class App extends Component {
         firstName: 'TYLER',
         lastName: 'WEST',
         fullName: 'Tyler West',
-        title: 'Front-End Web Developer'
+        title: 'Front-End Web Developer',
+        skills: [
+          {
+            name: 'HTML',
+            iconClass: 'fab fa-html5 fa-9x'
+          },
+          {
+            name: 'CSS',
+            iconClass: 'fab fa-css3-alt fa-9x'
+          },
+          {
+            name: 'Javascript',
+            iconClass: 'fab fa-js fa-9x'
+          },
+          {
+            name: 'ReactJS',
+            iconClass: 'fab fa-react fa-9x'
+          },
+          {
+            name: 'NodeJS',
+            iconClass: 'fab fa-node-js fa-9x'
+          },
+          {
+            name: 'AngularJS',
+            iconClass: 'fab fa-angular fa-9x'
+          },
+          {
+            name: 'Bootstrap',
+            iconClass: 'fab fa-twitter-square fa-9x'
+          },
+          {
+            name: 'jQuery',
+            iconClass: ''
+          },
+          {
+            name: 'Git',
+            iconClass: 'fab fa-git-square fa-9x'
+          },
+          {
+            name: 'Sublime',
+            iconClass: ''
+          },
+          {
+            name: 'Windows',
+            iconClass: 'fab fa-windows fa-9x'
+          },
+          {
+            name: 'Linux',
+            iconClass: 'fab fa-linux fa-9x'
+          },
+          {
+            name: 'Ajax',
+            iconClass: ''
+          },
+          {
+            name: 'Wordpress',
+            iconClass: 'fab fa-wordpress fa-9x'
+          },
+          {
+            name: 'Shopify',
+            iconClass: ''
+          },
+        ],
       }
     }
   }
@@ -34,7 +96,7 @@ class App extends Component {
 
           <About title="About" />
 
-          <Skills title="Skills" />
+          <Skills title="Skills" skills={this.state.user.skills} />
 
           <Projects title="Projects" />
 

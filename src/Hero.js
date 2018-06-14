@@ -19,7 +19,7 @@ class Hero extends Component {
           onMouseLeave={this.handleHoverLeave} 
           variant="display4" 
           color='primary' 
-          style={{fontFamily: 'Open Sans, sans-serif', fontWeight: '800', fontSize: '196px', lineHeight: '.85em', margin: '0px 0px 15px 15%', display: 'inline-block'}} >
+          style={{fontFamily: 'Open Sans, sans-serif', fontWeight: '800', fontSize: '196px', lineHeight: '.85em', margin: '0px 0px 15px 10%', display: 'inline-block'}} >
           {this.props.lastName}
         </Typography>
 

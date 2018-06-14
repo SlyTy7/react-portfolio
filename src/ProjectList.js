@@ -103,7 +103,7 @@ class Projects extends Component {
         {
           this.state.projects.map((item, index) => {
             return (
-              <Grid item xs={10} sm={6} md={6} lg={4} xl={3} key={'key' + index}>
+              <Grid item xs={12} sm={10} md={6} lg={4} xl={3} key={'key' + index}>
                 <Project project={item}/>
               </Grid>
             )

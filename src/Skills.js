@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
+import SkillsList from './SkillsList.js';
 
 class Skills extends Component {
   render() {
@@ -12,6 +13,8 @@ class Skills extends Component {
         </Typography>
 
         <Divider style={{marginBottom: '30px'}}/>
+
+        <SkillsList skills={this.props.skills} />
 
 
       </Paper>
