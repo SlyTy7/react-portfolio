@@ -49,35 +49,19 @@ class App extends Component {
           },
           {
             name: 'jQuery',
-            iconClass: ''
+            iconClass: 'fab fa-js fa-9x'
           },
           {
             name: 'Git',
             iconClass: 'fab fa-git-square fa-9x'
           },
           {
-            name: 'Sublime',
-            iconClass: ''
-          },
-          {
-            name: 'Windows',
-            iconClass: 'fab fa-windows fa-9x'
-          },
-          {
-            name: 'Linux',
-            iconClass: 'fab fa-linux fa-9x'
-          },
-          {
-            name: 'Ajax',
-            iconClass: ''
+            name: 'AJAX & APIs',
+            iconClass: 'fab fa-js fa-9x'
           },
           {
             name: 'Wordpress',
             iconClass: 'fab fa-wordpress fa-9x'
-          },
-          {
-            name: 'Shopify',
-            iconClass: ''
           },
         ],
       }
