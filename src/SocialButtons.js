@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Grid from '@material-ui/core/Grid';
-import ContactButton from './ContactButton.js';
+import SocialButton from './SocialButton.js';
 
 class SocialButtons extends Component {
   constructor(props){
@@ -33,7 +33,7 @@ class SocialButtons extends Component {
         {
           this.state.buttons.map((button, index) => {
             return(
-              <ContactButton key={index} name={button.name} link={button.link} icon={button.icon} />
+              <SocialButton key={index} name={button.name} link={button.link} icon={button.icon} />
             );
             
           })

@@ -4,7 +4,7 @@ import Card from '@material-ui/core/Card';
 import Typography from '@material-ui/core/Typography';
 
 
-class ContactButton extends Component {
+class SocialButton extends Component {
   render() {
     return (
       <Grid item>
@@ -25,4 +25,4 @@ class ContactButton extends Component {
   }
 }
 
-export default ContactButton;
+export default SocialButton;
