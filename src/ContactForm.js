@@ -12,12 +12,15 @@ class ContactForm extends Component {
         <FormControl fullWidth margin='normal'>
           <TextField label='Name' />
         </FormControl>
+
         <FormControl fullWidth margin='normal'>
           <TextField label='Email' />
         </FormControl>
+
         <FormControl fullWidth margin='normal'>
           <TextField label='Phone Number' />
         </FormControl>
+        
         <FormControl fullWidth margin='normal'>
           <TextField label='Message' />
         </FormControl>

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Grid from '@material-ui/core/Grid';
 import ContactButton from './ContactButton.js';
 
-class ContactButtons extends Component {
+class SocialButtons extends Component {
   constructor(props){
     super(props);
 
@@ -43,4 +43,4 @@ class ContactButtons extends Component {
   }
 }
 
-export default ContactButtons;
+export default SocialButtons;

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import SocialButtons from './SocialButtons.js';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
@@ -28,6 +29,11 @@ class About extends Component {
             </Typography>
           </Grid>
         </Grid>
+
+        <Divider style={{margin: '30px 0px'}}/>
+
+        <SocialButtons />
+
       </Paper>
     );
   }
