@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
+import ContactButtons from './ContactButtons.js';
+import ContactForm from './ContactForm.js';
 
 class Contact extends Component {
   render() {
@@ -13,6 +15,12 @@ class Contact extends Component {
 
         <Divider style={{marginBottom: '30px'}}/>
 
+        
+        <ContactForm />
+        <ContactButtons />
+
+
+        
 
       </Paper>
     );
