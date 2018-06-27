@@ -1,68 +1,56 @@
 import React, { Component } from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
-import Menu from '@material-ui/core/Menu';
-import MenuItem from '@material-ui/core/MenuItem';
 import Typography from '@material-ui/core/Typography';
+import Tabs from '@material-ui/core/Tabs';
+import Tab from '@material-ui/core/Tab';
+
+import About from './About.js';
+import Skills from './Skills.js';
+import Projects from './Projects.js';
+import Contact from './Contact.js';
+
 
 class Navigation extends Component {
   constructor(props){
     super(props);
 
     this.state = {
-
+      value: 0,
     }
   }
 
-  handleClick = (event) => {
-    this.setState({ 
-      anchorEl: event.currentTarget,
-    });
-  }
+  handleChange = (event, value) => {
+    console.log(event);
+    console.log(value);
 
-  handleClose = () => {
-    this.setState({
-      anchorEl: null,
-    })
-  }
-
+    this.setState({ value });
+  };
 
   render() {
     return (
-      <AppBar position="sticky" >
-        <Toolbar>
-          <IconButton 
-            color="inherit" 
-            aria-label="Menu"
-            aria-owns={this.state.anchorEl ? "nav-menu" : null} 
-            aria-haspopup="true"
-            onClick={this.handleClick} >
+      <React.Fragment>
+        <AppBar position="sticky" >
+          <Toolbar>        
+            <Typography 
+              variant="title" 
+              color="inherit" >
+              {this.props.name}
+            </Typography>
+          </Toolbar>
+          <Tabs value={this.state.value} onChange={this.handleChange} centered>
+            <Tab label="About" />
+            <Tab label="Skills" />
+            <Tab label="Recent Work" />
+            <Tab label="Contact Me" />
+          </Tabs>
+        </AppBar>
 
-            <MenuIcon />  
-
-          </IconButton>
-
-          <Menu 
-            id="nav-menu" 
-            open={Boolean(this.state.anchorEl)} 
-            anchorEl={this.state.anchorEl}
-            onClose={this.handleClose} >
-
-            <MenuItem>Profile</MenuItem>
-            <MenuItem>My account</MenuItem>
-            <MenuItem>Logout</MenuItem>
-
-          </Menu>
-
-          <Typography 
-            variant="title" 
-            color="inherit" >
-            {this.props.name}
-          </Typography>
-        </Toolbar>
-      </AppBar>
+        { this.state.value === 0 && <About title="About" /> }
+        { this.state.value === 1 && <Skills title="Skills" skills={this.props.skills} /> }
+        { this.state.value === 2 && <Projects title="Projects" /> }
+        { this.state.value === 3 && <Contact title="Contact" /> }
+      </React.Fragment>
     );
   }
 }
