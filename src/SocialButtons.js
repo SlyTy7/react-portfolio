@@ -11,17 +11,17 @@ class SocialButtons extends Component {
         {
           name: 'LinkedIn',
           link: 'https://www.linkedin.com/in/tylerjwest/',
-          icon: 'fab fa-linkedin fa-4x',
+          icon: 'fab fa-linkedin-in fa-3x',
         },
         {
           name: 'GitHub',
           link: 'https://github.com/SlyTy7',
-          icon: 'fab fa-github-square fa-4x',
+          icon: 'fab fa-github fa-3x',
         },
         {
-          name: 'Email',
-          link: 'tyler.j.west.7@gmail.com',
-          icon: 'fas fa-envelope-square fa-4x',
+          name: 'Resume',
+          link: 'https://www.linkedin.com/in/tylerjwest/',
+          icon: 'fas fa-file-alt fa-3x',
         },
       ]
     }
@@ -29,7 +29,7 @@ class SocialButtons extends Component {
 
   render() {
     return (
-      <Grid container spacing={16} justify='center'>
+      <Grid container spacing={32} justify='center'>
         {
           this.state.buttons.map((button, index) => {
             return(

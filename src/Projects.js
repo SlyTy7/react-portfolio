@@ -3,20 +3,25 @@ import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
 import ProjectList from './ProjectList.js';
+import Grid from '@material-ui/core/Grid';
 
 class Projects extends Component {
   render() {
     return (
-      <Paper style={{minHeight: '400px', maxWidth: '1000px', padding: '25px', margin: '30px auto'}}>
-        <Typography variant='display3' align='center' component='h2' color='secondary' gutterBottom>
-          {this.props.title}
-        </Typography>
+      <Grid container justify="center">
+        <Grid item>
+          <Paper style={{minHeight: '400px', maxWidth: '1000px', padding: '25px', margin: '15px'}}>
+            <Typography variant='display3' align='center' component='h2' color='secondary' gutterBottom>
+              {this.props.title}
+            </Typography>
 
-        <Divider style={{marginBottom: '30px'}}/>
+            <Divider style={{marginBottom: '30px'}}/>
 
-        <ProjectList />
+            <ProjectList />
 
-      </Paper>
+          </Paper>
+        </Grid>
+      </Grid>
     );
   }
 }

@@ -21,9 +21,6 @@ class Navigation extends Component {
   }
 
   handleChange = (event, value) => {
-    console.log(event);
-    console.log(value);
-
     this.setState({ value });
   };
 
@@ -38,7 +35,11 @@ class Navigation extends Component {
               {this.props.name}
             </Typography>
           </Toolbar>
-          <Tabs value={this.state.value} onChange={this.handleChange} centered>
+          <Tabs 
+            value={this.state.value} 
+            onChange={this.handleChange} 
+            indicatorColor="secondary"
+            centered>
             <Tab label="About" />
             <Tab label="Skills" />
             <Tab label="Recent Work" />

@@ -76,6 +76,12 @@ class App extends Component {
 
           <Navigation name={this.state.user.fullName} skills={this.state.user.skills} />
 
+        {/*
+        TODO: 
+          Refactor this code so its not all nested into the nav bar
+          Create component for subsections
+        */}
+
           {/*
           MOVED COMPS TO NAVIGATION.JS; MIGHT CHANGE THIS UP LATER FOR A BETTER DATA FLOW
 
