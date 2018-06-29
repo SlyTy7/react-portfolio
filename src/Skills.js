@@ -11,7 +11,7 @@ class Skills extends Component {
       <Grid container justify="center">
         <Grid item>
           <Paper style={{minHeight: '400px', maxWidth: '1000px', padding: '25px', margin: '15px'}}>
-            <Typography variant='display3' align='center' component='h2' color='secondary' gutterBottom>
+            <Typography variant='display2' align='center' component='h2' color='secondary' gutterBottom>
               {this.props.title}
             </Typography>
 
