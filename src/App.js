@@ -7,8 +7,19 @@ import Skills from './Skills.js';
 import Projects from './Projects.js';
 import Contact from './Contact.js';*/
 import './App.css';
+import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+import blue from '@material-ui/core/colors/blue';
+import grey from '@material-ui/core/colors/grey';
+
+const theme = createMuiTheme({
+  palette: {
+    primary: { main: blue[500] }, // Purple and green play nicely together.
+    secondary: { main: grey[800] }, // This is just green.A700 as hex.
+  },
+});
 
 class App extends Component {
+
   constructor(props){
     super(props)
 
@@ -70,7 +81,7 @@ class App extends Component {
 
   render() {
     return (
-      <React.Fragment>
+      <MuiThemeProvider theme={theme}>
         <CssBaseline />
         <div className="App">
 
@@ -97,7 +108,7 @@ class App extends Component {
           */}
 
         </div>
-      </React.Fragment>
+      </MuiThemeProvider>
       
     );
   }

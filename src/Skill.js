@@ -8,7 +8,7 @@ class Skill extends Component {
   render() {
     return (
       <Grid item xs={6} sm={4} md={3} lg={2}>
-        <Card raised={true} style={{padding: '5px', backgroundColor: '#3f51b5'}}>
+        <Card raised={true} style={{padding: '5px', backgroundColor: '#2196f3'}}>
           <Typography align='center' style={{color: '#fff'}}>
             <i className={this.props.icon}></i>
           </Typography>

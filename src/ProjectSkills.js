@@ -18,7 +18,7 @@ class ProjectSkills extends Component {
           this.props.skills.map((item, index) => {
             return (
               
-              <Chip label={item} key={index} style={{margin: '3px', padding: '0px', fontSize: '.68rem', backgroundColor: '#3f51b5', color: '#fff'}}/>
+              <Chip label={item} key={index} style={{margin: '3px', padding: '0px', fontSize: '.68rem', backgroundColor: '#424242', color: '#fff'}}/>
               
             );
           })

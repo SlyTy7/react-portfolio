@@ -40,7 +40,7 @@ class Project extends Component {
         onMouseEnter={this.handleHoverEnter} 
         onMouseLeave={this.handleHoverLeave} 
         raised={this.state.hovered} 
-        style={{transition: '.8s', transform: this.state.scale }} >
+        style={{transition: '.8s', transform: this.state.scale, paddingBottom: '10px' }} >
         
         {/*Project Thumbnail*/}
         <CardMedia component='img' src={this.props.project.image} />
