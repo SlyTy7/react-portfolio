@@ -19,10 +19,13 @@ class About extends Component {
             <Divider style={{marginBottom: '30px'}}/>
 
             <Grid container alignItems="center">
+              {/* PROFILE PICTURE */}
               <Grid item xs={12} md={4}>
                 <img src={AboutImg} alt='placeholder' style={{margin: '0px auto', display: 'block', borderRadius: '50%'}}/>
               </Grid>
-              <Grid item xs={12} md={8} style={{ padding: '0px 20px' }}>
+
+              {/* ABOUT INFO */}
+              <Grid item xs={12} md={8} style={{ padding: '30px' }}>
                 <Typography variant="body1" component='p' gutterBottom>
                   I'm a front-end web developer who lives and works in San Francisco and specializes in creating fully responsive websites and applications. With a background in marketing and web development, I strive to build innovative solutions with technology.
                 </Typography>
@@ -31,9 +34,13 @@ class About extends Component {
                   Are you looking for a front-end developer? Take a look at some of my work and send me a message. I'm always open to new opportunities!
                 </Typography>
               </Grid>
+
+              <Grid item xs={12}>
+                <SocialButtons />
+              </Grid>
             </Grid>
 
-            <SocialButtons />
+          
 
             <Divider style={{margin: '30px 0px'}}/>
 
