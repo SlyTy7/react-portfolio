@@ -69,7 +69,8 @@ class Projects extends Component {
             'JavaScript',
             'ReactJS',
             'NPM',
-            'Material UI'
+            'Material UI',
+            'Yarn'
           ],
         },
         {
