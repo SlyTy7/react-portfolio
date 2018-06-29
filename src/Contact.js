@@ -16,7 +16,6 @@ class Contact extends Component {
             </Typography>
 
             <Divider style={{marginBottom: '30px'}}/>
-
             
             <ContactForm />
 
