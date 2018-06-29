@@ -21,47 +21,47 @@ class App extends Component {
         skills: [
           {
             name: 'HTML',
-            iconClass: 'fab fa-html5 fa-9x'
+            iconClass: 'fab fa-html5 fa-6x'
           },
           {
             name: 'CSS',
-            iconClass: 'fab fa-css3-alt fa-9x'
+            iconClass: 'fab fa-css3-alt fa-6x'
           },
           {
             name: 'Javascript',
-            iconClass: 'fab fa-js fa-9x'
+            iconClass: 'fab fa-js fa-6x'
           },
           {
             name: 'ReactJS',
-            iconClass: 'fab fa-react fa-9x'
+            iconClass: 'fab fa-react fa-6x'
           },
           {
             name: 'NodeJS',
-            iconClass: 'fab fa-node-js fa-9x'
+            iconClass: 'fab fa-node-js fa-6x'
           },
           {
             name: 'AngularJS',
-            iconClass: 'fab fa-angular fa-9x'
+            iconClass: 'fab fa-angular fa-6x'
           },
           {
             name: 'Bootstrap',
-            iconClass: 'fab fa-twitter-square fa-9x'
+            iconClass: 'fab fa-twitter-square fa-6x'
           },
           {
             name: 'jQuery',
-            iconClass: 'fab fa-js fa-9x'
+            iconClass: 'fab fa-js fa-6x'
           },
           {
             name: 'Git',
-            iconClass: 'fab fa-git-square fa-9x'
+            iconClass: 'fab fa-git-square fa-6x'
           },
           {
             name: 'AJAX & APIs',
-            iconClass: 'fab fa-js fa-9x'
+            iconClass: 'fab fa-js fa-6x'
           },
           {
             name: 'Wordpress',
-            iconClass: 'fab fa-wordpress fa-9x'
+            iconClass: 'fab fa-wordpress fa-6x'
           },
         ],
       }
