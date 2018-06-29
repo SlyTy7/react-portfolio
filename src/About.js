@@ -18,7 +18,7 @@ class About extends Component {
 
             <Divider style={{marginBottom: '30px'}}/>
 
-            <Grid container>
+            <Grid container alignItems="center">
               <Grid item xs={12} md={4}>
                 <img src={AboutImg} alt='placeholder' style={{margin: '0px auto', display: 'block', borderRadius: '50%'}}/>
               </Grid>
