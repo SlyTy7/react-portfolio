@@ -42,15 +42,15 @@ class Navigation extends Component {
             centered>
             <Tab label="About" />
             <Tab label="Skills" />
-            <Tab label="Recent Work" />
+            <Tab label="Projects" />
             <Tab label="Contact Me" />
           </Tabs>
         </AppBar>
 
-        { this.state.value === 0 && <About title="About" /> }
-        { this.state.value === 1 && <Skills title="Skills" skills={this.props.skills} /> }
+        { this.state.value === 0 && <About title="About Me" /> }
+        { this.state.value === 1 && <Skills title="My Skills" skills={this.props.skills} /> }
         { this.state.value === 2 && <Projects title="Projects" /> }
-        { this.state.value === 3 && <Contact title="Contact" /> }
+        { this.state.value === 3 && <Contact title="Contact Me" /> }
       </React.Fragment>
     );
   }
