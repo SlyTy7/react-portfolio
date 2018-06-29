@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import Grid from '@material-ui/core/Grid';
 import Project from './Project.js';
+import GldShop from './imgs/gldshop.png';
+import AdoptionLife from './imgs/adoptionlife.png';
+import CoinRate from './imgs/coinrate.png';
+import ReactTodo from './imgs/reacttodo.png';
+import MovieFind from './imgs/moviefind.png';
+import TomatoTime from './imgs/tomatotime.png';
 
 class Projects extends Component {
   constructor(props){
@@ -9,87 +15,93 @@ class Projects extends Component {
     this.state = {
       projects: [
         {
-          name: 'Project Title',
-          image: 'https://placeimg.com/640/480/any',
+          name: 'The GLD Shop',
+          image: GldShop,
           description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta.',
           codeLink: '',
-          projectLink: '',
+          projectLink: 'https://www.thegldshop.com/',
           skills: [
-            'ReactJS',
             'HTML 5',
             'CSS 3',
-            'NodeJS',
+            'Javascript',
+            'Shopify'
+          ],
+        },
+        {
+          name: 'Adoption Life',
+          image: AdoptionLife,
+          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta.',
+          codeLink: '',
+          projectLink: 'https://adoptionlife.org/',
+          skills: [
+            'HTML 5',
+            'CSS 3',
+            'Javascript',
+            'Wordpress'
+          ],
+        },
+        {
+          name: 'Coin Rate',
+          image: CoinRate,
+          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta.',
+          codeLink: 'https://github.com/SlyTy7/CoinRate',
+          projectLink: 'https://slyty7.github.io/CoinRate/',
+          skills: [
+            'HTML 5',
+            'CSS 3',
+            'JavaScript',
+            'jQuery',
+            'Bootstrap',
+            'Bootswatch',
+            'ChartJS',
+            'Coin Desk API',
+          ],
+        },
+        {
+          name: 'React-Todo',
+          image: ReactTodo,
+          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta.',
+          codeLink: 'https://github.com/SlyTy7/react-todo',
+          projectLink: 'https://slyty7.github.io/react-todo/',
+          skills: [
+            'HTML 5',
+            'CSS 3',
+            'JavaScript',
+            'ReactJS',
+            'NPM',
             'Material UI'
           ],
         },
         {
-          name: 'Project Title',
-          image: 'https://placeimg.com/640/480/any',
+          name: 'Movie Find',
+          image: MovieFind,
           description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta.',
-          codeLink: '',
-          projectLink: '',
+          codeLink: 'https://github.com/SlyTy7/MovieFind',
+          projectLink: 'https://slyty7.github.io/MovieFind/',
           skills: [
-            'ReactJS',
             'HTML 5',
             'CSS 3',
-            'NodeJS',
-            'Material UI'
+            'JavaScript',
+            'Bootstrap',
+            'Bootswatch',
+            'Axios',
+            'The Movie DB API',
+            'LogoMakr',
           ],
         },
         {
-          name: 'Project Title',
-          image: 'https://placeimg.com/640/480/any',
+          name: 'Tomato Time',
+          image: TomatoTime,
           description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta.',
-          codeLink: '',
-          projectLink: '',
+          codeLink: 'https://github.com/SlyTy7/pomodoro',
+          projectLink: 'https://slyty7.github.io/pomodoro/',
           skills: [
-            'ReactJS',
             'HTML 5',
             'CSS 3',
-            'NodeJS',
-            'Material UI'
-          ],
-        },
-        {
-          name: 'Project Title',
-          image: 'https://placeimg.com/640/480/any',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta.',
-          codeLink: '',
-          projectLink: '',
-          skills: [
-            'ReactJS',
-            'HTML 5',
-            'CSS 3',
-            'NodeJS',
-            'Material UI'
-          ],
-        },
-        {
-          name: 'Project Title',
-          image: 'https://placeimg.com/640/480/any',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta.',
-          codeLink: '',
-          projectLink: '',
-          skills: [
-            'ReactJS',
-            'HTML 5',
-            'CSS 3',
-            'NodeJS',
-            'Material UI'
-          ],
-        },
-        {
-          name: 'Project Title',
-          image: 'https://placeimg.com/640/480/any',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta.',
-          codeLink: '',
-          projectLink: '',
-          skills: [
-            'ReactJS',
-            'HTML 5',
-            'CSS 3',
-            'NodeJS',
-            'Material UI'
+            'JavaScript',
+            'Bootstrap',
+            'Font Awesome',
+            'Google Fonts'
           ],
         },
 

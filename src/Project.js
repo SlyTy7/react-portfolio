@@ -63,12 +63,8 @@ class Project extends Component {
 
         {/*Project Links*/}
         <CardActions>
-          <Button size="small" color="primary">
-            See It Live
-          </Button>
-          <Button size="small" color="primary">
-            View Code
-          </Button>
+          { this.props.project.projectLink &&  <Button size="small" color="primary" children="See It Live" href={this.props.project.projectLink} />}
+          { this.props.project.codeLink &&  <Button size="small" color="primary" children="View Code" href={this.props.project.codeLink}/>}
         </CardActions>
 
       </Card>
