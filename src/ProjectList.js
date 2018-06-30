@@ -28,6 +28,23 @@ class Projects extends Component {
           ],
         },
         {
+          name: 'React-Todo',
+          image: ReactTodo,
+          description: "A basic to-do list application built with ReactJS and CRUD functionality. The app enables you to build a list of to-do items, mark them as finished, edit your items, and delete your to-dos. It was built with create-react-app and Material UI.",
+          codeLink: 'https://github.com/SlyTy7/react-todo',
+          projectLink: 'https://slyty7.github.io/react-todo/',
+          skills: [
+            'HTML 5',
+            'CSS 3',
+            'JavaScript',
+            'ReactJS',
+            'NPM',
+            'Material UI',
+            'Yarn',
+            'Git'
+          ],
+        },
+        {
           name: 'Adoption Life',
           image: AdoptionLife,
           description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta.',
@@ -43,7 +60,7 @@ class Projects extends Component {
         {
           name: 'Coin Rate',
           image: CoinRate,
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta.',
+          description: "A web application that uses the Coin Desk API to show you the current and past USD rate of Bitcoin.  It will show the rate history up to 30 days ago, and also its rate change percentage. The price graph is made with ChartJS; a javascript framework to visualize data.",
           codeLink: 'https://github.com/SlyTy7/CoinRate',
           projectLink: 'https://slyty7.github.io/CoinRate/',
           skills: [
@@ -55,28 +72,13 @@ class Projects extends Component {
             'Bootswatch',
             'ChartJS',
             'Coin Desk API',
-          ],
-        },
-        {
-          name: 'React-Todo',
-          image: ReactTodo,
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta.',
-          codeLink: 'https://github.com/SlyTy7/react-todo',
-          projectLink: 'https://slyty7.github.io/react-todo/',
-          skills: [
-            'HTML 5',
-            'CSS 3',
-            'JavaScript',
-            'ReactJS',
-            'NPM',
-            'Material UI',
-            'Yarn'
+            'Git'
           ],
         },
         {
           name: 'Movie Find',
           image: MovieFind,
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta.',
+          description: "An app that uses The Movie DB API to find detailed info about a movies, shows current popular movies, and has a search function to find movies. It's mobile-friendly and responsive, so that it functions on all screen sizes.",
           codeLink: 'https://github.com/SlyTy7/MovieFind',
           projectLink: 'https://slyty7.github.io/MovieFind/',
           skills: [
@@ -88,12 +90,13 @@ class Projects extends Component {
             'Axios',
             'The Movie DB API',
             'LogoMakr',
+            'Git'
           ],
         },
         {
           name: 'Tomato Time',
           image: TomatoTime,
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta.',
+          description: "A pomodoro timer built with vanilla JavaScript and Bootstrap 4. This is a one page application that I built to boost productivity. It has been made mobile-friendly and responsive with Bootstrap 4, which gave me a chance to become familiar with Bootstrap's newest features.",
           codeLink: 'https://github.com/SlyTy7/pomodoro',
           projectLink: 'https://slyty7.github.io/pomodoro/',
           skills: [
@@ -102,7 +105,8 @@ class Projects extends Component {
             'JavaScript',
             'Bootstrap',
             'Font Awesome',
-            'Google Fonts'
+            'Google Fonts',
+            'Git'
           ],
         },
 
