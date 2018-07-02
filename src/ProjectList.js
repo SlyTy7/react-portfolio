@@ -17,14 +17,16 @@ class Projects extends Component {
         {
           name: 'The GLD Shop',
           image: GldShop,
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta.',
+          description: 'Added tracking code, in javascript, to track visitor conversion rate and revenue rate. This allows greater insight into customer behavior and better search engine optimization.',
           codeLink: '',
           projectLink: 'https://www.thegldshop.com/',
           skills: [
             'HTML 5',
             'CSS 3',
             'Javascript',
-            'Shopify'
+            'Shopify',
+            'Web Development',
+            'SEO'
           ],
         },
         {
@@ -47,14 +49,15 @@ class Projects extends Component {
         {
           name: 'Adoption Life',
           image: AdoptionLife,
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta.',
+          description: 'I reconfigured the main landing page to be more responsive and larger CTAs, as well as adding "content lockers" that requires visitors to enter their contact info to unlock certain website content.',
           codeLink: '',
           projectLink: 'https://adoptionlife.org/',
           skills: [
             'HTML 5',
             'CSS 3',
             'Javascript',
-            'Wordpress'
+            'Wordpress',
+            'Opt-In Panda'
           ],
         },
         {
