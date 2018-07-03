@@ -20,7 +20,7 @@ class SocialButtons extends Component {
         },
         {
           name: 'Resume',
-          link: 'https://www.linkedin.com/in/tylerjwest/',
+          link: 'tyler-west-resume.pdf',
           icon: 'fas fa-file-alt fa-3x',
         },
       ]
